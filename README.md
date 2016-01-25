@@ -1,2 +1,7 @@
-# SS2H
-Struts Spring Hibernate
+JAVA的包管理真是麻烦。。。
+
+实现的功能比较简洁，但小鸟虽小 五脏俱全。
+
+强行拼凑出来，包管理debug了我5个小时。
+
+也算是提供一个SS2H的JAVA包吧。。。
