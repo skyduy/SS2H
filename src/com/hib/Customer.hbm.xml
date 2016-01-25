@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+		"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="bean.Customer" table="customers" catalog="mydb">
+		<id name="customerId" type="java.lang.String">
+			<column name="customerid" length="20"/>
+			<generator class="assigned"></generator>
+		</id>
+		<property name="name" type="java.lang.String">
+			<column name="name" length="20"/>
+		</property>
+		<property name="phone" type="java.lang.String">
+			<column name="phone" length="20"/>
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="chaper12_SS2H" extends="struts-default">
+		<action name="cusreg" class="regAction">  <!-- 这里交给了Spring处理 -->
+			<result name="success">/success.jsp</result>
+			<result name="input">/cusreg.jsp</result>
+		</action>
+	</package>
+</struts>
